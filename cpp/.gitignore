@@ -1,0 +1,6 @@
+_deps
+CMakeFiles
+CMakeCache.txt
+Makefile
+build
+*.cmake

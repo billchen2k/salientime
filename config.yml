@@ -1,0 +1,9 @@
+server:
+  port: 6008
+  round_decimal: 4
+  max_trend: 300
+  max_findframe: 300
+
+net:
+  code_size: 512
+  checkpoint: "ckpt_recloss_0.000069"

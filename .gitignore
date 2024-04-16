@@ -1,0 +1,18 @@
+datasets/*
+!datasets/.gitkeep
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+logs
+result
+cache
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+idea/
+
+# C extensions
+*.so
