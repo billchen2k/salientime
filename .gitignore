@@ -10,6 +10,7 @@ cache
 
 # Python related
 __pycache__/
+model/__pycache__/
 *.py[cod]
 *$py.class
 idea/

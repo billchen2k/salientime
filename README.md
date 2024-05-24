@@ -22,6 +22,10 @@ Required dependency are listed in `requirements.txt`. You may first install syst
 You can download the datasets [here](https://drive.google.com/file/d/1MS0Oz1U0KnoqPupp_jsr1dIE4FloCT6A) and the model checkpoints [here](https://drive.google.com/file/d/1w1UgxH4NbckTMZkdDGOEd53jQVPnCiYx). Please extract datasets.zip to the `dataset` folder and checkpoints.zip to the `checkpoint` folder.
 
 ### Model Training
+To train your own model, you should first modify the parameters in `config.yml`, especially `data.data_dir` which specifies the directory of the training data. Then, you can train your own model by running:
+```bash
+python train.py
+```
 
 
 ### Running the server

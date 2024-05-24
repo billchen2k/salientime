@@ -155,7 +155,7 @@ class SalienTimeNet(nn.Module):
         x = self.discriminator(x)
         return x
 
-    def forward(self, x, code_only):
+    def forward(self, x):
         code = self.encoder(x)
         recons_x = self.decoder(code)
         dis_result_real = self.discriminate(x)
