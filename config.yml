@@ -7,3 +7,18 @@ server:
 net:
   code_size: 512
   checkpoint: "ckpt_recloss_0.000069"
+
+train:
+  batch_size: 16
+  lr: 0.0003
+  epoch_num: 1000
+  betas1: 0.9
+  betas2: 0.999
+  eps: !!float 1e-6
+  weight_decay: !!float 1e-5
+  optim_step: 10
+  optim_gamma: 0.9
+  save_freq: 5
+
+data:
+  data_dir: ['../../data0907/chinasea09-lm/*.png']
